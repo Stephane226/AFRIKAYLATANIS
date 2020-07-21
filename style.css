@@ -161,15 +161,16 @@ svg{
 #colone2{
  
     background-color:rgb(255, 255, 255);
+    border-right:15px solid #333;
 }
 #firsttext{
     width:80%;
    
-    font-size:18px;
+    font-size:16px;
     color:rgb(8, 8, 8);
     text-align:left;
     margin-top:15px;
-    border-left:10px solid rgb(29, 31, 29);
+    border-left:10px solid rgb(255, 255, 255);
 }
 .img-countries:hover{
     border:rgb(4, 109, 20) 4px solid;
@@ -195,4 +196,49 @@ margin-top:20px;
 }
 .nameall{
     margin-left:-40px;
+}
+.tabl table{
+    border:2px solid black;
+    width:100%;
+}
+.tabl table tr{
+    border:2px solid black
+}
+
+.tabl table td{
+    border:2px solid black
+}
+
+.headtr{
+    background-color:rgb(144, 247, 150);
+    font-size:17px;
+    text-align:center;
+    font-weight:bold;
+    
+}
+
+#possibilities{
+    background-color:#efefef;
+    padding:60px 0;
+    
+  }
+  .wrapper{
+    width:1000px;
+    margin: 0 auto;
+    padding:0px 10px ;
+}
+.overlay{
+    background-color: rgba(235, 235, 235, 0.7);
+    height:90%;
+    width:180px;
+    padding:20px;
+    border-radius:10px 0 0 10px;
+    margin-right:24px;
+    position: relative;
+}
+.classp{
+    padding-top:100px;
+}
+.clear{
+    clear:both;
 }
