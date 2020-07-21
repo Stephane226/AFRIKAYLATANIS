@@ -1,3 +1,4 @@
+
 body{
     padding:0px;
     margin:0px;
@@ -33,16 +34,19 @@ body{
     text-decoration:underline;
     color:rgb(255, 255, 255);
     list-style: none;
-    background-color:rgb(12, 82, 12);
+    background-color:rgb(0, 165, 0);
     
  
    
+}
+#new{
+  margin:0 auto;
 }
 
 .maparea {
    width:100%;
  
-   margin: 0 auto;
+   background-color:rgb(248, 255, 248);
  
 }
 #div1{
@@ -65,11 +69,15 @@ background-color:rgb(227, 237, 252);
     margin:0px;
     margin:0px
 }
-svg#svg2 {
-    width:800px;
+
+svg{
+    width:470px;
     height:600px;
-    margin-top:;
+    margin-left:-45px;
+    margin-top:-60px;
+   
 }
+
 
 
 .names1{
@@ -163,4 +171,25 @@ svg#svg2 {
 .img-countries:hover{
     border:rgb(4, 109, 20) 4px solid;
      cursor: pointer;
+}
+.nameall ul li{
+    height:auto;
+margin-top:20px;
+    background-color:#333;
+    padding:5px;
+    margin:2px;
+    list-style: none;
+    display:inline-block;
+  
+
+}
+.nameall ul li a{
+    color:white;
+    font-size:18px;
+}
+.nameall ul li:hover{
+    background-color:rgb(40, 141, 0);
+}
+.nameall{
+    margin-left:-40px;
 }
