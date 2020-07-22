@@ -1,4 +1,6 @@
-document.getElementById("BF").addEventListener("mouseover", function(){
-    document.getElementById("BF").style.fill = "white";
+//Burkina faso
+document.getElementById("suu").addEventListener("mouseover", function(){
+    document.getElementById("suu").style.fill = "white";
+
 
 })
