@@ -9,36 +9,15 @@ body{
 }
 
 .navbar1{
-    width:100%;
+    width:110%;
+    height:60px;
     background-color:blue
 }
-.navbar1 ul{
-
-    padding:0px;
-    margin:0px
-}
-.navbar1 ul li{
+.navbar1 div{
     display:inline-block;
-    width:24%;
-    height:50px;
-    text-align:center;
- 
-    padding:0px; 
 }
-#td1 li:hover{
-    background-color:blue
-}
-
-.navbar1 ul li a{
-    text-decoration:none;
-    color:rgb(255, 253, 253);
-    list-style: none;
-    font-size:20px;
-  
-    
-}
-.navbar1 ul li:hover{
-    background-color:rgb(139, 243, 139);
+.menudiv1:hover{
+    background-color:black
 }
 #new{
   margin:0 auto;
@@ -75,7 +54,7 @@ background-color:rgb(227, 237, 252);
 
 svg{
    margin-left:-40px;
-   width:400px;
+   width:410px;
    margin-top:-30px;
 
    
@@ -163,7 +142,7 @@ svg{
 #colone2{
  
     background-color:rgb(255, 255, 255);
-    border-right:15px solid #333;
+    
 }
 #firsttext{
     width:80%;
@@ -200,7 +179,7 @@ margin-top:20px;
     margin-left:-40px;
 }
 .tabl table{
-    border:2px solid black;
+    border:3px solid #333;
     width:100%;
 }
 .tabl table tr{
