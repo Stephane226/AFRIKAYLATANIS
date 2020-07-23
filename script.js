@@ -183,6 +183,66 @@ document.getElementById("kon").addEventListener("mouseout", function(){
 
 })
 
+var initialColor08 = document.getElementById("congodemoc").style.fill;
+document.getElementById("congodemoc").addEventListener("mouseover", function(){
+    var initialColor8 = document.getElementById("congodemoc").style.fill;
+    document.getElementById("congodemoc").style.fill = "white";
+    document.getElementById("de_kon").style.backgroundColor = initialColor8;
+})
+document.getElementById("congodemoc").addEventListener("mouseout", function(){
+    document.getElementById("congodemoc").style.fill = initialColor08;
+    document.getElementById("de_kon").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("de_kon").addEventListener("mouseover", function(){
+    
+    document.getElementById("congodemoc").style.fill = "white";
+})
+document.getElementById("de_kon").addEventListener("mouseout", function(){
+ document.getElementById("congodemoc").style.fill = initialColor08;
+
+})
+
+var initialColor09 = document.getElementById("djibouti").style.fill;
+document.getElementById("djibouti").addEventListener("mouseover", function(){
+    var initialColor9 = document.getElementById("djibouti").style.fill;
+    document.getElementById("djibouti").style.fill = "white";
+    document.getElementById("cib").style.backgroundColor = initialColor9;
+})
+document.getElementById("djibouti").addEventListener("mouseout", function(){
+    document.getElementById("djibouti").style.fill = initialColor09;
+    document.getElementById("cib").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("cib").addEventListener("mouseover", function(){
+    
+    document.getElementById("djibouti").style.fill = "white";
+})
+document.getElementById("cib").addEventListener("mouseout", function(){
+ document.getElementById("djibouti").style.fill = initialColor09;
+
+})
+
+var initialColor010 = document.getElementById("egypt").style.fill;
+document.getElementById("egypt").addEventListener("mouseover", function(){
+    var initialColor10 = document.getElementById("egypt").style.fill;
+    document.getElementById("egypt").style.fill = "white";
+    document.getElementById("msr").style.backgroundColor = initialColor10;
+})
+document.getElementById("egypt").addEventListener("mouseout", function(){
+    document.getElementById("egypt").style.fill = initialColor010;
+    document.getElementById("msr").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("msr").addEventListener("mouseover", function(){
+    
+    document.getElementById("egypt").style.fill = "white";
+})
+document.getElementById("msr").addEventListener("mouseout", function(){
+ document.getElementById("egypt").style.fill = initialColor010;
+
+})
+
 
 
 
