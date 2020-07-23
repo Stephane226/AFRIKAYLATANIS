@@ -117,6 +117,71 @@ document.getElementById("bot").addEventListener("mouseout", function(){
 })
 
 
+//Function on mouse oversss & mouseout for BG CLRS
+var initialColor05 = document.getElementById("centreafrique").style.fill;
+document.getElementById("centreafrique").addEventListener("mouseover", function(){
+    var initialColor5 = document.getElementById("centreafrique").style.fill;
+    document.getElementById("centreafrique").style.fill = "white";
+    document.getElementById("ortafr").style.backgroundColor = initialColor5;
+})
+document.getElementById("centreafrique").addEventListener("mouseout", function(){
+    document.getElementById("centreafrique").style.fill = initialColor05;
+    document.getElementById("ortafr").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("ortafr").addEventListener("mouseover", function(){
+    
+    document.getElementById("centreafrique").style.fill = "white";
+})
+document.getElementById("ortafr").addEventListener("mouseout", function(){
+ document.getElementById("centreafrique").style.fill = initialColor05;
+
+})
+//Fin De La Founction
+
+//Function on mouse oversss & mouseout for BG CLRS
+var initialColor06 = document.getElementById("tchad").style.fill;
+document.getElementById("tchad").addEventListener("mouseover", function(){
+    var initialColor6 = document.getElementById("tchad").style.fill;
+    document.getElementById("tchad").style.fill = "white";
+    document.getElementById("cad").style.backgroundColor = initialColor6;
+})
+document.getElementById("tchad").addEventListener("mouseout", function(){
+    document.getElementById("tchad").style.fill = initialColor06;
+    document.getElementById("cad").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("cad").addEventListener("mouseover", function(){
+    
+    document.getElementById("tchad").style.fill = "white";
+})
+document.getElementById("cad").addEventListener("mouseout", function(){
+ document.getElementById("tchad").style.fill = initialColor06;
+
+})
+//Fin De La Founction
+
+
+
+var initialColor07 = document.getElementById("congo").style.fill;
+document.getElementById("congo").addEventListener("mouseover", function(){
+    var initialColor7 = document.getElementById("congo").style.fill;
+    document.getElementById("congo").style.fill = "white";
+    document.getElementById("kon").style.backgroundColor = initialColor7;
+})
+document.getElementById("congo").addEventListener("mouseout", function(){
+    document.getElementById("congo").style.fill = initialColor07;
+    document.getElementById("kon").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("kon").addEventListener("mouseover", function(){
+    
+    document.getElementById("congo").style.fill = "white";
+})
+document.getElementById("kon").addEventListener("mouseout", function(){
+ document.getElementById("congo").style.fill = initialColor07;
+
+})
 
 
 

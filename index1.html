@@ -1,0 +1,24 @@
+
+//Function on mouse oversss & mouseout for BG CLRS
+var initialColor0 = document.getElementById("pathId").style.fill;
+document.getElementById("pathId").addEventListener("mouseover", function(){
+    var initialColor = document.getElementById("pathId").style.fill;
+    document.getElementById("pathId").style.fill = "white";
+    document.getElementById("liId").style.backgroundColor = initialColor;
+})
+document.getElementById("pathId").addEventListener("mouseout", function(){
+    document.getElementById("pathId").style.fill = initialColor0;
+    document.getElementById("liId").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("liId").addEventListener("mouseover", function(){
+    
+    document.getElementById("pathId").style.fill = "white";
+})
+document.getElementById("liId").addEventListener("mouseout", function(){
+ document.getElementById("pathId").style.fill = initialColor0;
+
+})
+//Fin De La Founction
+
+
