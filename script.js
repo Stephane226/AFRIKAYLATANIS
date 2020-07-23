@@ -244,6 +244,65 @@ document.getElementById("msr").addEventListener("mouseout", function(){
 })
 
 
+var initialColor011 = document.getElementById("guineequatorial").style.fill;
+document.getElementById("guineequatorial").addEventListener("mouseover", function(){
+    var initialColor11 = document.getElementById("guineequatorial").style.fill;
+    document.getElementById("guineequatorial").style.fill = "white";
+    document.getElementById("ekv").style.backgroundColor = initialColor11;
+})
+document.getElementById("guineequatorial").addEventListener("mouseout", function(){
+    document.getElementById("guineequatorial").style.fill = initialColor011;
+    document.getElementById("ekv").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("ekv").addEventListener("mouseover", function(){
+    
+    document.getElementById("guineequatorial").style.fill = "white";
+})
+document.getElementById("ekv").addEventListener("mouseout", function(){
+ document.getElementById("guineequatorial").style.fill = initialColor011;
+
+})
+
+var initialColor012 = document.getElementById("eritre").style.fill;
+document.getElementById("eritre").addEventListener("mouseover", function(){
+    var initialColor12 = document.getElementById("eritre").style.fill;
+    document.getElementById("eritre").style.fill = "white";
+    document.getElementById("ert").style.backgroundColor = initialColor12;
+})
+document.getElementById("eritre").addEventListener("mouseout", function(){
+    document.getElementById("eritre").style.fill = initialColor012;
+    document.getElementById("ert").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("ert").addEventListener("mouseover", function(){
+    
+    document.getElementById("eritre").style.fill = "white";
+})
+document.getElementById("ert").addEventListener("mouseout", function(){
+ document.getElementById("eritre").style.fill = initialColor012;
+
+})
+
+var initialColor013 = document.getElementById("ethiopie").style.fill;
+document.getElementById("ethiopie").addEventListener("mouseover", function(){
+    var initialColor13 = document.getElementById("ethiopie").style.fill;
+    document.getElementById("ethiopie").style.fill = "white";
+    document.getElementById("ety").style.backgroundColor = initialColor13;
+})
+document.getElementById("ethiopie").addEventListener("mouseout", function(){
+    document.getElementById("ethiopie").style.fill = initialColor013;
+    document.getElementById("ety").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("ety").addEventListener("mouseover", function(){
+    
+    document.getElementById("ethiopie").style.fill = "white";
+})
+document.getElementById("ety").addEventListener("mouseout", function(){
+ document.getElementById("ethiopie").style.fill = initialColor013;
+
+})
 
 
 
