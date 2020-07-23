@@ -401,12 +401,105 @@ document.getElementById("gin_b").addEventListener("mouseout", function(){
  document.getElementById("gbisseau").style.fill = initialColor018;
 
 })
+var initialColor019 = document.getElementById("ci").style.fill;
+document.getElementById("ci").addEventListener("mouseover", function(){
+    var initialColor19 = document.getElementById("ci").style.fill;
+    document.getElementById("ci").style.fill = "white";
+    document.getElementById("fil").style.backgroundColor = initialColor19;
+})
+document.getElementById("ci").addEventListener("mouseout", function(){
+    document.getElementById("ci").style.fill = initialColor019;
+    document.getElementById("fil").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("fil").addEventListener("mouseover", function(){
+    
+    document.getElementById("ci").style.fill = "white";
+})
+document.getElementById("fil").addEventListener("mouseout", function(){
+ document.getElementById("ci").style.fill = initialColor019;
+
+})
+
+var initialColor020 = document.getElementById("kenya").style.fill;
+document.getElementById("kenya").addEventListener("mouseover", function(){
+    var initialColor20 = document.getElementById("kenya").style.fill;
+    document.getElementById("kenya").style.fill = "white";
+    document.getElementById("ken").style.backgroundColor = initialColor20;
+})
+document.getElementById("kenya").addEventListener("mouseout", function(){
+    document.getElementById("ken").style.fill = initialColor020;
+    document.getElementById("kenya").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("kenya").addEventListener("mouseover", function(){
+    
+    document.getElementById("ken").style.fill = "white";
+})
+document.getElementById("kenya").addEventListener("mouseout", function(){
+ document.getElementById("ken").style.fill = initialColor020;
+
+})
+
+var initialColor021 = document.getElementById("liberia").style.fill;
+document.getElementById("liberia").addEventListener("mouseover", function(){
+    var initialColor21 = document.getElementById("liberia").style.fill;
+    document.getElementById("liberia").style.fill = "white";
+    document.getElementById("lib").style.backgroundColor = initialColor21;
+})
+document.getElementById("liberia").addEventListener("mouseout", function(){
+    document.getElementById("liberia").style.fill = initialColor021;
+    document.getElementById("lib").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("lib").addEventListener("mouseover", function(){
+    
+    document.getElementById("liberia").style.fill = "white";
+})
+document.getElementById("lib").addEventListener("mouseout", function(){
+ document.getElementById("liberia").style.fill = initialColor021;
+
+})
 
 
+var initialColor022 = document.getElementById("lybie").style.fill;
+document.getElementById("lybie").addEventListener("mouseover", function(){
+    var initialColor22 = document.getElementById("lybie").style.fill;
+    document.getElementById("lybie").style.fill = "white";
+    document.getElementById("lb").style.backgroundColor = initialColor22;
+})
+document.getElementById("lybie").addEventListener("mouseout", function(){
+    document.getElementById("lybie").style.fill = initialColor022;
+    document.getElementById("lb").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("lb").addEventListener("mouseover", function(){
+    
+    document.getElementById("lybie").style.fill = "white";
+})
+document.getElementById("lb").addEventListener("mouseout", function(){
+ document.getElementById("lybie").style.fill = initialColor022;
+
+})
 
 
+var initialColor023 = document.getElementById("magadascar").style.fill;
+document.getElementById("magadascar").addEventListener("mouseover", function(){
+    var initialColor23 = document.getElementById("magadascar").style.fill;
+    document.getElementById("magadascar").style.fill = "white";
+    document.getElementById("mag").style.backgroundColor = initialColor23;
+})
+document.getElementById("magadascar").addEventListener("mouseout", function(){
+    document.getElementById("magadascar").style.fill = initialColor023;
+    document.getElementById("mag").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("mag").addEventListener("mouseover", function(){
+    
+    document.getElementById("magadascar").style.fill = "white";
+})
+document.getElementById("mag").addEventListener("mouseout", function(){
+ document.getElementById("magadascar").style.fill = initialColor023;
 
-
-
-
+})
 
