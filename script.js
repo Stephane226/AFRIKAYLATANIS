@@ -502,4 +502,321 @@ document.getElementById("mag").addEventListener("mouseout", function(){
  document.getElementById("magadascar").style.fill = initialColor023;
 
 })
+var initialColor024 = document.getElementById("mali").style.fill;
+document.getElementById("mali").addEventListener("mouseover", function(){
+    var initialColor24 = document.getElementById("mali").style.fill;
+    document.getElementById("mali").style.fill = "white";
+    document.getElementById("mli").style.backgroundColor = initialColor24;
+})
+document.getElementById("mali").addEventListener("mouseout", function(){
+    document.getElementById("mali").style.fill = initialColor024;
+    document.getElementById("mli").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("mli").addEventListener("mouseover", function(){
+    
+    document.getElementById("mali").style.fill = "white";
+})
+document.getElementById("mli").addEventListener("mouseout", function(){
+ document.getElementById("mali").style.fill = initialColor024;
 
+})
+
+var initialColor025 = document.getElementById("mauritanie").style.fill;
+document.getElementById("mauritanie").addEventListener("mouseover", function(){
+    var initialColor25 = document.getElementById("mauritanie").style.fill;
+    document.getElementById("mauritanie").style.fill = "white";
+    document.getElementById("mor").style.backgroundColor = initialColor25;
+})
+document.getElementById("mauritanie").addEventListener("mouseout", function(){
+    document.getElementById("mauritanie").style.fill = initialColor025;
+    document.getElementById("mor").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("mor").addEventListener("mouseover", function(){
+    
+    document.getElementById("mauritanie").style.fill = "white";
+})
+document.getElementById("mor").addEventListener("mouseout", function(){
+ document.getElementById("mauritanie").style.fill = initialColor025;
+
+})
+var initialColor026 = document.getElementById("maroc").style.fill;
+document.getElementById("maroc").addEventListener("mouseover", function(){
+    var initialColor26 = document.getElementById("maroc").style.fill;
+    document.getElementById("maroc").style.fill = "white";
+    document.getElementById("fas").style.backgroundColor = initialColor26;
+})
+document.getElementById("maroc").addEventListener("mouseout", function(){
+    document.getElementById("maroc").style.fill = initialColor026;
+    document.getElementById("fas").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("fas").addEventListener("mouseover", function(){
+    
+    document.getElementById("maroc").style.fill = "white";
+})
+document.getElementById("fas").addEventListener("mouseout", function(){
+ document.getElementById("maroc").style.fill = initialColor026;
+
+})
+
+var initialColor027 = document.getElementById("mozambique").style.fill;
+document.getElementById("mozambique").addEventListener("mouseover", function(){
+    var initialColor27 = document.getElementById("mozambique").style.fill;
+    document.getElementById("mozambique").style.fill = "white";
+    document.getElementById("moz").style.backgroundColor = initialColor27;
+})
+document.getElementById("mozambique").addEventListener("mouseout", function(){
+    document.getElementById("mozambique").style.fill = initialColor027;
+    document.getElementById("moz").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("moz").addEventListener("mouseover", function(){
+    
+    document.getElementById("mozambique").style.fill = "white";
+})
+document.getElementById("moz").addEventListener("mouseout", function(){
+ document.getElementById("mozambique").style.fill = initialColor027;
+
+})
+
+var initialColor028 = document.getElementById("namibie").style.fill;
+document.getElementById("namibie").addEventListener("mouseover", function(){
+    var initialColor28 = document.getElementById("namibie").style.fill;
+    document.getElementById("namibie").style.fill = "white";
+    document.getElementById("nam").style.backgroundColor = initialColor28;
+})
+document.getElementById("namibie").addEventListener("mouseout", function(){
+    document.getElementById("namibie").style.fill = initialColor028;
+    document.getElementById("nam").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("nam").addEventListener("mouseover", function(){
+    
+    document.getElementById("namibie").style.fill = "white";
+})
+document.getElementById("nam").addEventListener("mouseout", function(){
+ document.getElementById("namibie").style.fill = initialColor028;
+
+})
+
+var initialColor029 = document.getElementById("sudsoudan").style.fill;
+document.getElementById("sudsoudan").addEventListener("mouseover", function(){
+    var initialColor29 = document.getElementById("sudsoudan").style.fill;
+    document.getElementById("sudsoudan").style.fill = "white";
+    document.getElementById("gsud").style.backgroundColor = initialColor29;
+})
+document.getElementById("sudsoudan").addEventListener("mouseout", function(){
+    document.getElementById("sudsoudan").style.fill = initialColor029;
+    document.getElementById("gsud").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("gsud").addEventListener("mouseover", function(){
+    
+    document.getElementById("sudsoudan").style.fill = "white";
+})
+document.getElementById("gsud").addEventListener("mouseout", function(){
+ document.getElementById("sudsoudan").style.fill = initialColor029;
+
+})
+
+var initialColor030 = document.getElementById("niger").style.fill;
+document.getElementById("niger").addEventListener("mouseover", function(){
+    var initialColor30 = document.getElementById("niger").style.fill;
+    document.getElementById("niger").style.fill = "white";
+    document.getElementById("njr").style.backgroundColor = initialColor30;
+})
+document.getElementById("niger").addEventListener("mouseout", function(){
+    document.getElementById("niger").style.fill = initialColor030;
+    document.getElementById("njr").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("njr").addEventListener("mouseover", function(){
+    
+    document.getElementById("niger").style.fill = "white";
+})
+document.getElementById("njr").addEventListener("mouseout", function(){
+ document.getElementById("niger").style.fill = initialColor030;
+
+})
+
+
+var initialColor1 = document.getElementById("nigeria").style.fill;
+document.getElementById("nigeria").addEventListener("mouseover", function(){
+    var initialColor1 = document.getElementById("nigeria").style.fill;
+    document.getElementById("nigeria").style.fill = "white";
+    document.getElementById("njrya").style.backgroundColor = initialColor1;
+})
+document.getElementById("nigeria").addEventListener("mouseout", function(){
+    document.getElementById("nigeria").style.fill = initialColor1;
+    document.getElementById("njrya").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("njrya").addEventListener("mouseover", function(){
+    
+    document.getElementById("nigeria").style.fill = "white";
+})
+document.getElementById("njrya").addEventListener("mouseout", function(){
+ document.getElementById("nigeria").style.fill = initialColor1;
+
+})
+
+var initialColor2 = document.getElementById("saharaocc").style.fill;
+document.getElementById("saharaocc").addEventListener("mouseover", function(){
+    var initialColor2 = document.getElementById("saharaocc").style.fill;
+    document.getElementById("saharaocc").style.fill = "white";
+    document.getElementById("sah").style.backgroundColor = initialColor2;
+})
+document.getElementById("saharaocc").addEventListener("mouseout", function(){
+    document.getElementById("saharaocc").style.fill = initialColor2;
+    document.getElementById("sah").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("sah").addEventListener("mouseover", function(){
+    
+    document.getElementById("saharaocc").style.fill = "white";
+})
+document.getElementById("sah").addEventListener("mouseout", function(){
+ document.getElementById("saharaocc").style.fill = initialColor2;
+
+})
+
+var initialColor3 = document.getElementById("senegal").style.fill;
+document.getElementById("senegal").addEventListener("mouseover", function(){
+    var initialColor3 = document.getElementById("senegal").style.fill;
+    document.getElementById("senegal").style.fill = "white";
+    document.getElementById("sen").style.backgroundColor = initialColor3;
+})
+document.getElementById("senegal").addEventListener("mouseout", function(){
+    document.getElementById("senegal").style.fill = initialColor3;
+    document.getElementById("sen").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("sen").addEventListener("mouseover", function(){
+    
+    document.getElementById("senegal").style.fill = "white";
+})
+document.getElementById("sen").addEventListener("mouseout", function(){
+ document.getElementById("senegal").style.fill = initialColor3;
+
+})
+var initialColor4 = document.getElementById("afsud").style.fill;
+document.getElementById("afsud").addEventListener("mouseover", function(){
+    var initialColor4 = document.getElementById("afsud").style.fill;
+    document.getElementById("afsud").style.fill = "white";
+    document.getElementById("ga").style.backgroundColor = initialColor4;
+})
+document.getElementById("afsud").addEventListener("mouseout", function(){
+    document.getElementById("afsud").style.fill = initialColor4;
+    document.getElementById("ga").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("ga").addEventListener("mouseover", function(){
+    
+    document.getElementById("afsud").style.fill = "white";
+})
+document.getElementById("ga").addEventListener("mouseout", function(){
+ document.getElementById("afsud").style.fill = initialColor4;
+
+})
+var initialColor5 = document.getElementById("somalie").style.fill;
+document.getElementById("somalie").addEventListener("mouseover", function(){
+    var initialColor5 = document.getElementById("somalie").style.fill;
+    document.getElementById("somalie").style.fill = "white";
+    document.getElementById("som").style.backgroundColor = initialColor5;
+})
+document.getElementById("somalie").addEventListener("mouseout", function(){
+    document.getElementById("somalie").style.fill = initialColor5;
+    document.getElementById("som").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("som").addEventListener("mouseover", function(){
+    
+    document.getElementById("somalie").style.fill = "white";
+})
+document.getElementById("som").addEventListener("mouseout", function(){
+ document.getElementById("somalie").style.fill = initialColor5;
+
+})
+
+var initialColor6 = document.getElementById("sierra").style.fill;
+document.getElementById("sierra").addEventListener("mouseover", function(){
+    var initialColor6 = document.getElementById("sierra").style.fill;
+    document.getElementById("sierra").style.fill = "white";
+    document.getElementById("sier").style.backgroundColor = initialColor6;
+})
+document.getElementById("sierra").addEventListener("mouseout", function(){
+    document.getElementById("sierra").style.fill = initialColor6;
+    document.getElementById("sier").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("sier").addEventListener("mouseover", function(){
+    
+    document.getElementById("sierra").style.fill = "white";
+})
+document.getElementById("sier").addEventListener("mouseout", function(){
+ document.getElementById("sierra").style.fill = initialColor6;
+
+})  
+
+var initialColor7 = document.getElementById("soudan").style.fill;
+document.getElementById("soudan").addEventListener("mouseover", function(){
+    var initialColor7 = document.getElementById("soudan").style.fill;
+    document.getElementById("soudan").style.fill = "white";
+    document.getElementById("sdn").style.backgroundColor = initialColor7;
+})
+document.getElementById("soudan").addEventListener("mouseout", function(){
+    document.getElementById("soudan").style.fill = initialColor7;
+    document.getElementById("sdn").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("sdn").addEventListener("mouseover", function(){
+    
+    document.getElementById("soudan").style.fill = "white";
+})
+document.getElementById("sdn").addEventListener("mouseout", function(){
+ document.getElementById("soudan").style.fill = initialColor7;
+
+})   
+
+var initialColor8 = document.getElementById("tanzanie").style.fill;
+document.getElementById("tanzanie").addEventListener("mouseover", function(){
+    var initialColor8 = document.getElementById("tanzanie").style.fill;
+    document.getElementById("tanzanie").style.fill = "white";
+    document.getElementById("tnz").style.backgroundColor = initialColor8;
+})
+document.getElementById("tanzanie").addEventListener("mouseout", function(){
+    document.getElementById("tanzanie").style.fill = initialColor8;
+    document.getElementById("tnz").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("tnz").addEventListener("mouseover", function(){
+    
+    document.getElementById("tanzanie").style.fill = "white";
+})
+document.getElementById("tnz").addEventListener("mouseout", function(){
+ document.getElementById("tanzanie").style.fill = initialColor8;
+
+})
+
+//gvhbjkjdhg
+var initialColor009 = document.getElementById("togo").style.fill;
+document.getElementById("togo").addEventListener("mouseover", function(){
+    var initialColor9 = document.getElementById("togo").style.fill;
+    document.getElementById("togo").style.fill = "white";
+    document.getElementById("tog").style.backgroundColor = initialColor9;
+})
+document.getElementById("togo").addEventListener("mouseout", function(){
+    document.getElementById("togo").style.fill = initialColor009;
+    document.getElementById("tog").style.backgroundColor = "#444";
+})
+                       //Function de la Liste Mouse over & Out Related to maps
+document.getElementById("tog").addEventListener("mouseover", function(){
+    
+    document.getElementById("togo").style.fill = "white";
+})
+document.getElementById("tog").addEventListener("mouseout", function(){
+ document.getElementById("togo").style.fill = initialColor009;
+
+})
