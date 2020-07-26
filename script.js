@@ -820,3 +820,27 @@ document.getElementById("tog").addEventListener("mouseout", function(){
  document.getElementById("togo").style.fill = initialColor009;
 
 })
+var jss = " ";
+var i;
+
+for(i = 0; i < 101; i+1){
+   
+    jss += i + "<br>";
+    
+}
+document.getElementById("ge").innerHTML = jss
+/*var h = "opl"
+alert(h[1])
+
+
+var bol = i.toString();
+    if(bol[1] != 2 && bol[1] != 4 && bol[1] != 6 && bol[1] != 8 && bol[0] != 2  && bol[0] != 4 && bol[0] != 6 && bol[0] != 8){
+    
+        
+    }
+    
+var bol = i/2;
+if(bol.toString().length != 3){
+
+    
+}*/
