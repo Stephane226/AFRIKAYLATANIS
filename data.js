@@ -46,12 +46,7 @@ document.getElementById("burkina").addEventListener("click", function(){
 //----------------------country of----------------------------------------
 //An onject to hold Country Data
 
-var textData =[
-    {
-        alger:'Coğrafi konum olarak Afrika ve Avrupa arasında bir kapı olan cezayir , gectigimiz yarım yüz yıl boyunca ağır bir şekilde sömürülmüş ve zarar görmüş bir ülkedir. Cezayir’in Fransız sömürge yönetimine karşı bağımsızlık mücadelesi sırasında ölenlerin sayısı ile ilgili çelişkili raporlar bulunmaktadır. Fransız tarihçiler 400.000 Cezayirlinin öldürüldüğünü tahmin ederken, Cezayir hükümeti bir milyondan fazla insanın öldüğünü açıklamıştır. Ülkede daha sonra iç çatışmalar ve karışıklıklar meydana gelmiştir. İslamcı kesimin kazanacağı düşünülen secim iptal edilmiştir ve bunun sonucu olarak hala küçük çaplı isyanlar ülkede hakimdir. Cezayir topraklarının yüzde 80’i çöl bölgesi Sahra’da yer almaktadır. Aynı zamanda Afrika kıtasının yüzölçümü olarak en büyük ülkesidir. Cezayir’de bulunan petrol ve gaz rezervleri 1950’lerde keşfedildi ,dünyanın en fazla petrol rezervine sahip ülkelerden biri olarak öne çıkıyor. 2)Angola Afrika\'nın en büyük petrol üreticilerinden Angola, bağımsızlığını kazandıktan sonra ülkeyi tahrip eden 27 yıllık bir iç savaşın fiziksel, sosyal ve politik mirasıyla mücadele etmeye çalışıyor. Angola’da ortaya çıkan iç savaş Angola\'nın Portekiz sömürgesinden 1974\'te kurtulması sonucu oluşmuş bir ihtilaftır. Afrika\'nın en uzun süren anlaşmazlığıdır. 2002 yılında resmen biten ve 27 yıl süren savaş, bitene kadar yarım milyon insanın ölümüne ve binlerce insanın da göçüne sebep olmuştur. Angola\'nın petrol zenginliğinin büyük kısmı, on yıllardır süren ayrılıkçı çatışmanın büyük çoğunluğunun yaşandığı Cabinda eyaletinde bulunmaktadır.'
-    },
-    ]
-var textAp = textData[0].alger,
+
 var Algerie = {
     Cname:"Cezair",
     flag:"images/countries/",
@@ -69,16 +64,18 @@ var Algerie = {
     pop:"",
     sup:"",
     ind:"",
+    text:'Coğrafi konum olarak Afrika ve Avrupa arasında bir kapı olan cezayir , gectigimiz yarım yüz yıl boyunca ağır bir şekilde sömürülmüş ve zarar görmüş bir ülkedir. Cezayir’in Fransız sömürge yönetimine karşı bağımsızlık mücadelesi sırasında ölenlerin sayısı ile ilgili çelişkili raporlar bulunmaktadır. Fransız tarihçiler 400.000 Cezayirlinin öldürüldüğünü tahmin ederken, Cezayir hükümeti bir milyondan fazla insanın öldüğünü açıklamıştır. Ülkede daha sonra iç çatışmalar ve karışıklıklar meydana gelmiştir. İslamcı kesimin kazanacağı düşünülen secim iptal edilmiştir ve bunun sonucu olarak hala küçük çaplı isyanlar ülkede hakimdir. Cezayir topraklarının yüzde 80’i çöl bölgesi Sahra’da yer almaktadır. Aynı zamanda Afrika kıtasının yüzölçümü olarak en büyük ülkesidir. Cezayir’de bulunan petrol ve gaz rezervleri 1950’lerde keşfedildi ,dünyanın en fazla petrol rezervine sahip ülkelerden biri olarak öne çıkıyor. 2)Angola Afrika\'nın en büyük petrol üreticilerinden Angola, bağımsızlığını kazandıktan sonra ülkeyi tahrip eden 27 yıllık bir iç savaşın fiziksel, sosyal ve politik mirasıyla mücadele etmeye çalışıyor. Angola’da ortaya çıkan iç savaş Angola\'nın Portekiz sömürgesinden 1974\'te kurtulması sonucu oluşmuş bir ihtilaftır. Afrika\'nın en uzun süren anlaşmazlığıdır. 2002 yılında resmen biten ve 27 yıl süren savaş, bitene kadar yarım milyon insanın ölümüne ve binlerce insanın da göçüne sebep olmuştur. Angola\'nın petrol zenginliğinin büyük kısmı, on yıllardır süren ayrılıkçı çatışmanın büyük çoğunluğunun yaşandığı Cabinda eyaletinde bulunmaktadır.'
+    
+}
 
     
-    textA:"Coğrafi konum olarak Afrika ve Avrupa arasında bir kapı olan cezayir , gectigimiz yarım yüz yıl boyunca ağır bir şekilde sömürülmüş ve zarar görmüş bir ülkedir. Cezayir’in Fransız sömürge yönetimine karşı bağımsızlık mücadelesi sırasında ölenlerin sayısı ile ilgili çelişkili raporlar bulunmaktadır. Fransız tarihçiler 400.000 Cezayirlinin öldürüldüğünü tahmin ederken, Cezayir hükümeti bir milyondan fazla insanın öldüğünü açıklamıştır. Ülkede daha sonra iç çatışmalar ve karışıklıklar meydana gelmiştir. İslamcı kesimin kazanacağı düşünülen secim iptal edilmiştir ve bunun sonucu olarak hala küçük çaplı isyanlar ülkede hakimdir. Cezayir topraklarının yüzde 80’i çöl bölgesi Sahra’da yer almaktadır. Aynı zamanda Afrika kıtasının yüzölçümü olarak en büyük ülkesidir. Cezayir’de bulunan petrol ve gaz rezervleri 1950’lerde keşfedildi ,dünyanın en fazla petrol rezervine sahip ülkelerden biri olarak öne çıkıyor. 2)Angola Afrika\'nın en büyük petrol üreticilerinden Angola, bağımsızlığını kazandıktan sonra ülkeyi tahrip eden 27 yıllık bir iç savaşın fiziksel, sosyal ve politik mirasıyla mücadele etmeye çalışıyor. Angola’da ortaya çıkan iç savaş Angola\'nın Portekiz sömürgesinden 1974\'te kurtulması sonucu oluşmuş bir ihtilaftır. Afrika\'nın en uzun süren anlaşmazlığıdır. 2002 yılında resmen biten ve 27 yıl süren savaş, bitene kadar yarım milyon insanın ölümüne ve binlerce insanın da göçüne sebep olmuştur. Angola\'nın petrol zenginliğinin büyük kısmı, on yıllardır süren ayrılıkçı çatışmanın büyük çoğunluğunun yaşandığı Cabinda eyaletinde bulunmaktadır."
-}
+   
 //Function on clicking one Country on the list
 document.getElementById("cez").addEventListener("click", function(){
     
     document.getElementById("CountryName").innerHTML = Algerie.Cname;
     document.getElementById("imgFlag").src = Algerie.flag;
-    document.getElementById("textarea").innerHTML = textAp;
+    document.getElementById("textarea").innerHTML = Algerie.text;
      //galery 4images change
     document.getElementById("img1").src = Algerie.img1;
     document.getElementById("img2").src = Algerie.img2;
@@ -94,6 +91,7 @@ document.getElementById("cez").addEventListener("click", function(){
     document.getElementById("sup").innerHTML = Algerie.sup;
     document.getElementById("gross").innerHTML = Algerie.gdp;
     document.getElementById("inde").innerHTML = Algerie.ind;
+    
 
 })
 
