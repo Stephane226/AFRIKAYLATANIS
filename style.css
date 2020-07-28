@@ -198,8 +198,16 @@ margin-top:20px;
     background-color:#444;
     font-size:17px;
     text-align:center;
-    font-weight:bold;
+   
     color:white;
+    
+}
+.headtr1{
+    background-color:rgba(54, 107, 76, 0.7);
+    font-size:14px;
+    text-align:center;
+    font-weight:bold;
+    color:rgb(255, 255, 255);
     
 }
 
