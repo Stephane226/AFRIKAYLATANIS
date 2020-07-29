@@ -1,5 +1,55 @@
 
-//Function on mouse oversss & mouseout for BG CLRS
+
+//----------------------country of----------------------------------------
+//An onject to hold Country Data
+var    = {
+    Cname:"",
+    flag:"images/countries/",
+    
+    img1:"images/countries/",
+    img2:"images/countries/",
+    img3:"images/countries/",
+    img4:"images/countries/",
+    lang:"",
+    money:"",
+    gdp:" ",
+    riche:"",
+    capital:" ",
+    control:"",
+    pop:"",
+    sup:"",
+    ind:"",
+
+    text:"  "
+}
+//Function on clicking one Country on the list
+document.getElementById(" ").addEventListener("click", function(){
+    
+    document.getElementById("CountryName").innerHTML = obj-nam.Cname;
+    document.getElementById("imgFlag").src = obj-nam.flag;
+    document.getElementById("textarea").innerHTML = obj-nam.text;
+     //galery 4images change
+    document.getElementById("img1").src = obj-nam.img1;
+    document.getElementById("img2").src = obj-nam.img2;
+    document.getElementById("img3").src = obj-nam.img3;
+    document.getElementById("img4").src = obj-nam.img4;
+
+    //changing od quick information
+    document.getElementById("capital").innerHTML = obj-nam.capital;
+    document.getElementById("money").innerHTML = obj-nam.money;
+    document.getElementById("dil").innerHTML = obj-nam.lang;
+    document.getElementById("richess").innerHTML = obj-nam.riche;
+    document.getElementById("pop").innerHTML = obj-nam.pop;
+    document.getElementById("sup").innerHTML = obj-nam.sup;
+    document.getElementById("gross").innerHTML = obj-nam.gdp;
+    document.getElementById("inde").innerHTML = obj-nam.ind;
+
+})
+
+
+
+
+/*//Function on mouse oversss & mouseout for BG CLRS
 var initialColor0 = document.getElementById("pathId").style.fill;
 document.getElementById("pathId").addEventListener("mouseover", function(){
     var initialColor = document.getElementById("pathId").style.fill;
@@ -20,5 +70,8 @@ document.getElementById("liId").addEventListener("mouseout", function(){
 
 })
 //Fin De La Founction
+
+
+
 
 
