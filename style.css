@@ -488,6 +488,22 @@ section.clearfix{
     .aboutt{
         width:100%;
     }
+   #img1{
+       width:99%;
+       height:160px;
+   }
+   #img2{
+    width:99%;
+    height:160px;
+}
+#img3{
+    width:99%;
+    height:160px;
+}
+#img4{
+    width:99%;
+    height:160px;
+}
   }
    
   /* Landscape phone to portrait tablet */
@@ -537,6 +553,22 @@ section.clearfix{
     .aboutt{
         width:100%;
     }
+    #img1{
+        width:99%;
+        height:160px;
+    }
+    #img2{
+     width:99%;
+     height:160px;
+ }
+ #img3{
+     width:99%;
+     height:160px;
+ }
+ #img4{
+     width:99%;
+     height:160px;
+ }
   }
    
   /* Landscape phones and down */
@@ -606,6 +638,22 @@ section.clearfix{
       .aboutt{
           width:100%;
       }
+      #img1{
+        width:99%;
+        height:160px;
+    }
+    #img2{
+     width:99%;
+     height:160px;
+ }
+ #img3{
+     width:99%;
+     height:160px;
+ }
+ #img4{
+     width:99%;
+     height:160px;
+ }
   }
 
 
