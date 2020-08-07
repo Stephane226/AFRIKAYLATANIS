@@ -485,6 +485,9 @@ section.clearfix{
         height:200px;
         margin:30px auto;
     }
+    .aboutt{
+        width:100%;
+    }
   }
    
   /* Landscape phone to portrait tablet */
@@ -530,6 +533,9 @@ section.clearfix{
     }
     .bigBg{
         height:270px
+    }
+    .aboutt{
+        width:100%;
     }
   }
    
@@ -596,6 +602,9 @@ section.clearfix{
       }
       .bigBg{
           height:270px;
+      }
+      .aboutt{
+          width:100%;
       }
   }
 
