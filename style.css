@@ -621,7 +621,7 @@ position: absolute;
 content: "";
 background: grey;
 width: 12%;
-height: 1px;
+height: 1px;  
 left: 0;
 bottom: -20px;
 }
