@@ -518,6 +518,9 @@ section.clearfix{
       section.clearfix{
         height:200px;
     }
+    .bigBg{
+        height:270px
+    }
   }
    
   /* Landscape phones and down */
@@ -579,6 +582,9 @@ section.clearfix{
       }
       section.clearfix{
           height:200px;
+      }
+      .bigBg{
+          height;:270px
       }
   }
 
