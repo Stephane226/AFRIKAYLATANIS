@@ -296,9 +296,9 @@ section.clearfix{
   
   .clearfix:before,
   .clearfix:after {
-    display: table;
+    display:;
     line-height: 0;
-    content: "";
+   /* content: "";*/
   }
   .clearfix:after {
     clear: both;
@@ -508,7 +508,7 @@ section.clearfix{
   /* Landscape phone to portrait tablet */
   @media (max-width: 767px) {
       .container{
-          width: 95%;
+          width: 90%;
       }
       nav>a{
           padding: 0 2em;
