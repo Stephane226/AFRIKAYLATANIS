@@ -20,9 +20,10 @@ table tr td li:hover{
 
 
 .maparea {
-   width:98%;
+   width:100%;
    margin:0 auto;
-  
+   border-left:40px #444 solid ;
+   border-right:40px rgb(53, 52, 52) solid;
    background-color:rgb(242, 248, 238);
  
 }
@@ -575,7 +576,7 @@ section.clearfix{
       .header-left,
       .header-right{
           width: 100%;
-          text-align: center;
+          /*text-align: center;*/
       }
       .section-left,
       .section-right{
@@ -654,7 +655,7 @@ section.clearfix{
       .header-left,
       .header-right{
           width: 100%;
-          text-align: center;
+         /* text-align: center;*/
       }
       header{
           height:auto;
