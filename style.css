@@ -22,8 +22,8 @@ table tr td li:hover{
 .maparea {
    width:100%;
    margin:0 auto;
-   border-left:40px #444 solid ;
-   border-right:40px rgb(53, 52, 52) solid;
+   border-left:10px #444 solid ;
+   border-right:10px rgb(53, 52, 52) solid;
    background-color:rgb(242, 248, 238);
  
 }
@@ -355,7 +355,7 @@ section.clearfix{
   .clearfix:after {
     display:;
     line-height: 0;
-   /* content: "";*/
+   content: "";
   }
   .clearfix:after {
     clear: both;
@@ -652,10 +652,13 @@ section.clearfix{
       h1{
           padding: .5em 0;
       }
-      .header-left,
+    
       .header-right{
           width: 100%;
-         /* text-align: center;*/
+          text-align: center;
+      }
+      .header-left h3{
+          text-align:left
       }
       header{
           height:auto;
