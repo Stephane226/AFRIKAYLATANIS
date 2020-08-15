@@ -310,8 +310,9 @@ footer{
     border:none;
     width:60%;
     height:50px;
-    background-color:rgba(97, 89, 89, 0.4);
+    background-color:rgba(255, 255, 255, 0.884);
     margin-left:20px;
+    color:black;
   
 }
 .btn_lider:hover{
