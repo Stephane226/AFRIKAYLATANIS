@@ -1,9 +1,18 @@
 
-html, body {margin: 0; height: 100%; overflow-x: hidden};
+body{
+   font-family:courier,arial,helvetica;
+   font-size:40px;
+}
+
+html, body {margin: 0; height: 100%; overflow-x: hidden;
+    font-family:courier,arial,helvetica;
+    font-size:15px;
+ };
 .navbar1{
     width:110%;
     height:60px;
     background-color:blue
+
 }
 .navbar1 div{
     display:inline-block;
