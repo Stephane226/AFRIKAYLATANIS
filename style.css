@@ -438,11 +438,17 @@ section.clearfix{
       font-size: 13px;
       line-height: 40px;
       padding: 0 2em;
-      -webkit-transition: all .3s ease;
+      -webkit-transition: all .5s ease;
+      color:white;
   }
   nav>a:hover{
-      background: rgba(255,255,255,.9);
-      color: black;
+      background: rgb(238, 216, 146);
+      
+      font-size:15px;
+      text-align:center;
+      border-radius:2px;
+      color:black
+      
   }
   .hidden-desktop{
       display: non;
@@ -843,6 +849,16 @@ height: 100%;
 
 
 
+.ara02{
+    width:100%;
+    height:300px;
+    background-image:url('images/b0011.jpg');
+    background-position: bottom;
+    background:cover;
+    background-size: auto;
+   
+    
+}
 
 
 
