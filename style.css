@@ -533,6 +533,7 @@ section.clearfix{
 .containe{
     width:80%;
     margin:10px;
+    margin-left:40px
 }
 .containee{
     width:80%;
@@ -550,12 +551,14 @@ section.clearfix{
         margin:20px 10px;
         margin-left:20px;
         font-size:16px;
-        font-family:Georgia, 'Times New Roman', Times, serif
+        font-family:Georgia, 'Times New Roman', Times, serif;
+  
     }
     
     .containe{
         width:80%;
         margin:10px;
+        margin-left:40px
     }
     .containee{
         width:80%;
@@ -597,6 +600,7 @@ section.clearfix{
     .containe{
         width:80%;
         margin:10px;
+        margin-left:40px
     }
     .containee{
         width:80%;
@@ -658,11 +662,12 @@ section.clearfix{
     .containe{
         width:80%;
         margin:10px;
+        margin-left:40px
     }
     .containee{
         width:100%;
         margin:10px;
-
+        margin-left:40px
         
     }
       .blog-sections{
