@@ -521,48 +521,9 @@ section.clearfix{
   header.clearfix{
     height:70px;
   }
-  .blog-sections{
-    box-shadow: 1px 2px rgb(226, 189, 87);
-    background-color:whitesmoke;
-    margin:20px 10px;
-    margin-left:20px;
-    font-size:16px;
-    font-family:Georgia, 'Times New Roman', Times, serif
-}
-
-.containe{
-    width:80%;
-    margin:10px;
-}
-.containee{
-    width:80%;
-    margin:10px;
- margin-left:250px;
-    
-}
-
 }
   /* Portrait tablet to landscape and desktop */
   @media (min-width: 768px) and (max-width: 979px) {
-    .blog-sections{
-        box-shadow: 1px 2px rgb(226, 189, 87);
-        background-color:whitesmoke;
-        margin:20px 10px;
-        margin-left:20px;
-        font-size:16px;
-        font-family:Georgia, 'Times New Roman', Times, serif
-    }
-    
-    .containe{
-        width:80%;
-        margin:10px;
-    }
-    .containee{
-        width:80%;
-        margin:10px;
-     margin-left:250px;
-        
-    }
       .box{
           width: 49%;
           margin-bottom: 5%;
@@ -585,25 +546,6 @@ section.clearfix{
   
   /* Small monitor */
   @media (max-width: 979px){
-    .blog-sections{
-        box-shadow: 1px 2px rgb(226, 189, 87);
-        background-color:whitesmoke;
-        margin:20px 10px;
-        margin-left:20px;
-        font-size:16px;
-        font-family:Georgia, 'Times New Roman', Times, serif
-    }
-    
-    .containe{
-        width:80%;
-        margin:10px;
-    }
-    .containee{
-        width:80%;
-        margin:10px;
-     margin-left:250px;
-        
-    }
       nav>a{
           padding: 0 1.5em;
       }
@@ -655,24 +597,6 @@ section.clearfix{
    
   /* Landscape phone to portrait tablet */
   @media (max-width: 767px) {
-    .containe{
-        width:80%;
-        margin:10px;
-    }
-    .containee{
-        width:100%;
-        margin:10px;
-
-        
-    }
-      .blog-sections{
-        box-shadow: 1px 2px rgb(226, 189, 87);
-        background-color:whitesmoke;
-        margin:20px 10px;
- 
-        font-size:16px;
-        font-family:Georgia, 'Times New Roman', Times, serif
-    }
       .container{
           width: 90%;
       }
@@ -742,25 +666,6 @@ section.clearfix{
       body{
          
       }
-      /*blog part for mobiles*/
-      .containe{
-        width:100%;
-        margin:10px;
-    }
-    .containee{
-        width:100%;
-        margin:10px;
-
-        
-    }
-      .blog-sections{
-        box-shadow: 1px 2px rgb(226, 189, 87);
-        background-color:whitesmoke;
-        margin:20px 10px;
- 
-        font-size:16px;
-        font-family:Georgia, 'Times New Roman', Times, serif
-    }
       .container{
           width: 90%;
       }
@@ -1024,7 +929,18 @@ height: 100%;
 margin-top:-30px;
       background-image: url('images/faded_africa.png');
   }
-
+.blog-sections{
+    box-shadow: 1px 2px rgb(226, 189, 87);
+    background-color:whitesmoke;
+    margin:20px 10px;
+    margin-left:20px;
+    font-size:16px;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+.oneTopic{
+  
+ 
+}
 .topRow{
     width:100%;
     height:40px;
@@ -1035,5 +951,15 @@ margin-top:-30px;
     width:100%;
     height:40px;
     background-color:#979b60;
+    
+}
+.containe{
+    width:80%;
+    margin:10px;
+}
+.containee{
+    width:80%;
+    margin:10px;
+ margin-left:250px;
     
 }
