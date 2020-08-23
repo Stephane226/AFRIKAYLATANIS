@@ -529,7 +529,15 @@ section.clearfix{
     font-size:16px;
     font-family:Georgia, 'Times New Roman', Times, serif
 }
-
+.blog-sections-riches{
+    box-shadow: 1px 2px rgb(94, 93, 93);
+    background-color:whitesmoke;
+    margin:20px 10px;
+    margin-left:20px;
+    font-size:16px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    box-shadow: 5px 10px 18px #888888
+}
 .containe{
     width:80%;
     margin:10px;
@@ -1025,7 +1033,7 @@ height: 100%;
     position: relative;
 }
 .ModernAfrica{
-    width:96%;
+    width:94%;
     margin:0 auto;
 }
 
@@ -1078,4 +1086,10 @@ margin-top:-30px;
 }
 .gelisme{
     background-color:rgb(247, 247, 247);
+}
+.containere{
+    width:92%;
+    background-color:#eceed5;
+    margin:0 auto
+    
 }
