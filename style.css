@@ -530,6 +530,7 @@ section.clearfix{
     font-family:Georgia, 'Times New Roman', Times, serif
 }
 .blog-sections-riches{
+    height:370px;
     box-shadow: 1px 2px rgb(94, 93, 93);
     background-color:whitesmoke;
     margin:20px 10px;
@@ -672,6 +673,7 @@ section.clearfix{
         margin:10px;
         margin-left:40px
     }
+   
     .containee{
         width:100%;
         margin:10px;
@@ -755,6 +757,9 @@ section.clearfix{
       body{
          
       }
+    
+      
+     
       /*blog part for mobiles*/
       .containe{
         width:100%;
@@ -864,6 +869,9 @@ section.clearfix{
      width:99%;
      height:160px;
  }
+ #mar{
+    margin:10px;
+}
   }
 
 
@@ -1033,7 +1041,7 @@ height: 100%;
     position: relative;
 }
 .ModernAfrica{
-    width:94%;
+    width:100%;
     margin:0 auto;
 }
 
@@ -1069,7 +1077,13 @@ margin-top:-30px;
       background-image: url('images/faded_africa.png');
       position:right;
   }
-
+  .topRowCulture{
+    width:100%;
+    height:40px;
+    background-color:#444;
+    margin-top:15px;
+    
+}
   
 
 .topRow{
@@ -1085,11 +1099,33 @@ margin-top:-30px;
     
 }
 .gelisme{
-    background-color:rgb(247, 247, 247);
+    background-color:rgb(255, 255, 255);
+    margin:0px;
 }
 .containere{
     width:92%;
     background-color:#eceed5;
     margin:0 auto
     
+}
+.small-blocks-1{
+    width:100%;
+    height:400px;
+    background-color:rgb(241, 241, 241);
+    box-shadow: 1px 2px rgb(94, 93, 93);
+    width:100%;
+    height:auto;
+}
+.small-blocks{
+    background-color:rgb(250, 242, 229);
+    box-shadow: 2px 4px rgb(94, 93, 93);
+    width:100%;
+    height:400px;
+}
+.bg-images-foods{
+    background-image:url('images/fufu.jpg');
+    background-size:cover;
+    width:100%;
+    height:200px;
+
 }
